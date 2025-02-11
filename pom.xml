@@ -78,6 +78,7 @@
 			<scope>runtime</scope>
 		</dependency>
 
+
 		<!-- añadimos lombok para mayor simplificación del código -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -89,6 +90,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
